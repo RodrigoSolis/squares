@@ -31,11 +31,11 @@ const drawContainer = (containerSize, childSize, numberOfChildren) => {
 }
 
 function backgroundColor() {
-  var x = Math.floor(Math.random() * 256);
-  var y = Math.floor(Math.random() * 256);
-  var z = Math.floor(Math.random() * 256);
+  var r = Math.floor(Math.random() * 256)
+  var g = Math.floor(Math.random() * 256)
+  var b = Math.floor(Math.random() * 256)
 
-  return 'rgb(' + x + ',' + y + ',' + z + ')';
+  return 'rgb(' + r + ',' + g + ',' + b + ')'
 }
 
 function changeColor () {
